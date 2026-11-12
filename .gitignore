@@ -1,31 +1,16 @@
-# Environment variables and API keys
 .env
 .env.*
-
-# Virtual environment
 venv/
 .venv/
 env/
-
-# Python cache
 __pycache__/
 *.pyc
-
-# Streamlit
 .streamlit/secrets.toml
-
-# Vector database
 chroma_db/
-
-# Uploaded PDFs and generated files
 data/
 *.pdf
 *.pptx
-
-# IDE files
 .vscode/
 .idea/
-
-# OS files
 .DS_Store
 Thumbs.db
