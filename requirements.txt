@@ -1,0 +1,19 @@
+# Core app
+streamlit>=1.37.0
+python-dotenv>=1.0.0
+
+# LangChain (modern split packages, LCEL, no deprecated APIs)
+langchain-core>=0.3.0
+langchain-text-splitters>=0.3.0
+langchain-ollama>=0.2.0
+langchain-groq>=0.2.0
+langchain-chroma>=0.1.4
+langchain-huggingface>=0.1.0
+
+# Vector DB + embeddings
+chromadb>=0.5.0
+sentence-transformers>=3.0.0
+
+# PDF + PowerPoint
+pymupdf>=1.24.0
+python-pptx>=1.0.0
